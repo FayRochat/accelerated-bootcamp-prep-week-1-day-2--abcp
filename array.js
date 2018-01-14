@@ -27,14 +27,14 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 }
 
 function removeElementFromBeginningOfArray(array) {
-return array.slice(1) 
+return array.slice(1);
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
-array.shift(lastArrayNum)
-return array
+array.shift(lastArrayNum);
+return array;
 }
 
 function removeElementFromEndOfArray(array) {
-return array.slice(1,lastArrayNum)
+return array.slice(1,lastArrayNum);
 }
