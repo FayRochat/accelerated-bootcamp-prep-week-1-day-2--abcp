@@ -31,7 +31,8 @@ return array.slice(1)
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
-array.
+array.shift(lastArrayNum)
+return array
 }
 
 function removeElementFromEndOfArray(array) {
